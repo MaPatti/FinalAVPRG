@@ -9,27 +9,44 @@ div {
     font-size: 1.5em;
 }
 
+#Feuer{
+    width: 50%;
+
+}
+
+#Wind{
+    width: 50%;
+
+}
+
 #gainContainer {
     background: #F79F79;
-    width: 100%;
+    width: 300px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 #panningContainer {
     background: #5b6f69;
     width: 100%;
+    display : none;
 }
 
 #delayContainer {
     background: #7883bf;
     width: 100%;
+    display : none;
 }
 
 #playStopButton {
     background-color: #e0d336;
-    border: none;
     color: #1dba9d;
-    font-size: 2.8em;
-    padding: 0.5em 1.5em;
+    font-size: 20px;
+    width: 300px;
+    height: 250px;
+
 }
 
 #playStopButton:active {
