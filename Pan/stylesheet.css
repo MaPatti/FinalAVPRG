@@ -9,18 +9,54 @@ div {
     font-size: 1.5em;
 }
 
+#pan{
+    width: 1000px;
+    height: 400px;;
+    background-color: #7883bf;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+#Umgebung{
+    width: 700px;
+    height: 700px;;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Regen{
+    width: 50%;
+    float:left;
+
+}
+
 #Feuer{
     width: 50%;
+    float: right;
 
 }
 
 #Wind{
     width: 50%;
+    float: left;
+    margin-top: 50px;
 
 }
 
+#Wald{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+}
+
+
+
+
+
 #gainContainer {
-    background: #F79F79;
+    background: #1dba9d;
     width: 300px;
     height: 50px;
     margin-left: auto;
@@ -75,6 +111,6 @@ div {
     appearance: none;
     width: 25px;
     height: 25px;
-    background: #1dba9d;
+    background: black;
     cursor: pointer;
 }

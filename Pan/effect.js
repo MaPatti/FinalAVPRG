@@ -2,7 +2,7 @@ var playStopButton = document.getElementById("playStopButton");
 var isPlaying = false;
 
 var context = new AudioContext();
-var sound = new Audio("../sounds/sound.wav");
+var sound = new Audio("../sounds/regen.mp3");
 sound.crossOrigin = "anonymous";
 var source = context.createMediaElementSource(sound);
 var gain = context.createGain();
@@ -16,7 +16,7 @@ stereoPanner.connect(context.destination);
 
 document.getElementById("gainSlider").addEventListener("input", function (e) {
     var gainValue = (this.value / 20);
-    document.getElementById("gainOutput").innerHTML = gainValue + " dB";
+    
     gain.gain.value = gainValue;
 });
 

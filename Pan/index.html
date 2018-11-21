@@ -6,32 +6,63 @@
     </head>
     <body>
 
-        <!-- Code für Feuersound und der Divbox -->
+      
     <div id="main">
+                    <div id="pan">
 
-        <div id="Feuer">
-            
-            <button id="playStopButton">Play</button>
+                        
+                    </div>
 
-            <div id="gainContainer"> 
-                <input type="range" min="0" max="100" value="10" class="slider" id="gainSlider">
-                <span id="gainOutput">1.0 dB</span>
-            </div>
 
-            <div id="panningContainer"> Panning
-                <input type="range" min="0" max="100" value="50" class="slider" id="panningSlider">
-                <span id="panningOutput">0 LR</span>
-            </div>
+                    <div id="Umgebung">
+                        <div id="Regen">
+                            
+                            <button id="playStopButton">Play</button>
 
-            <div id="delayContainer">Delay
-                <input type="range" min="0" max="100" value="0" class="slider" id="delaySlider">
-                <span id="delayOutput">0 sec</span>
-            </div>
+                            <div id="gainContainer"> 
+                                <input type="range" min="0" max="100" value="10" class="slider" id="gainSlider">
+                                <span id="gainOutput"></span>
+                            </div>
 
-            <script src="effect.js"></script>
-            <!--------------------------------------->
-        </div>
+                            <div id="panningContainer"> Panning
+                                <input type="range" min="0" max="100" value="50" class="slider" id="panningSlider">
+                                <span id="panningOutput">0 LR</span>
+                            </div>
 
+                            <div id="delayContainer">Delay
+                                <input type="range" min="0" max="100" value="0" class="slider" id="delaySlider">
+                                <span id="delayOutput">0 sec</span>
+                            </div>
+
+                            <script src="effect.js"></script>
+                          
+                        </div>
+
+                        <div id="Feuer">
+                            <button id="playStopButton">Play</button>
+                            <div id="gainContainer"> 
+                                    <input type="range" min="0" max="100" value="10" class="slider" id="gainSlider">
+                                    <span id="gainOutput"></span>
+                                </div>
+                        </div>
+
+                        <div id="Wind">
+                                <button id="playStopButton">Play</button>
+                                <div id="gainContainer"> 
+                                        <input type="range" min="0" max="100" value="10" class="slider" id="gainSlider">
+                                        <span id="gainOutput"></span>
+                                    </div>
+                                               
+                        </div>
+
+                        <div id="Wald">
+                                <button id="playStopButton">Play</button>
+                                <div id="gainContainer"> 
+                                        <input type="range" min="0" max="100" value="10" class="slider" id="gainSlider">
+                                        <span id="gainOutput"></span>
+                                    </div>
+                        </div>
+                    </div>         
         
 
 
