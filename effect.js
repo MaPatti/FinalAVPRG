@@ -2,7 +2,7 @@ var playStopButton = document.getElementById("playStopButton");
 var isPlaying = false;
 
 var context = new AudioContext();
-var sound = new Audio("../sounds/sound.wav");
+var sound = new Audio("C:\Users\manue\Desktop\AVPRG\FinalAVPRG\sounds/sound.wav");
 sound.crossOrigin = "anonymous";
 var source = context.createMediaElementSource(sound);
 var gain = context.createGain();
