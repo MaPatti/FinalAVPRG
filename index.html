@@ -1,13 +1,58 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <link rel="stylesheet" href="stylesheet.css">
-<title>Page Title</title>
-</head>
-<body>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../navigationStyle.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>AVPRG Aufgabe 6</title>
+    </head>
+    <body>
+        <!-- Liste für die Navigation -->
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Aufgabe1/index.html">1. Aufgabe</a></li>
+            <li><a href="../Aufgabe2/index.html">2. Aufgabe</a></li>
+            <li><a href="../Aufgabe3/index.html">3. Aufgabe</a></li>
+            <li><a href="../Aufgabe4/index.html">4. Aufgabe</a></li>
+            <li><a href="../Aufgabe5/index.html">5. Aufgabe</a></li>
+            <li><a href="index.html" class="active">6. Aufgabe</a></li>
+            <li><a href="../Aufgabe7/index.html">7. Aufgabe</a></li>
+            <li><a href="../Aufgabe8/index.html">8. Aufgabe</a></li>
+            <li><a href="../Aufgabe9/index.html">9. Aufgabe</a></li>
+            <li><a href="../Aufgabe10/index.html">10. Aufgabe</a></li>
+            <li><a href="../Aufgabe11/index.html">11. Aufgabe</a></li>
+            <li><a href="../Aufgabe12/index.html">12. Aufgabe</a></li>
+            <li><a href="../Aufgabe13/index.html">13. Aufgabe</a></li>
+            <li><a href="../Aufgabe14a/index.html">14a. Aufgabe</a></li>
+            <li><a href="../Aufgabe14b/index.html">14b. Aufgabe</a></li>
+            <li><a href="../Aufgabe14c/index.html">14c. Aufgabe</a></li>
+            <li><a href="../Aufgabe14d/index.html">14d. Aufgabe</a></li>
+            <li><a href="../Bonus1/index.html">Bonus 1</a></li>
+            <li><a href="../Bonus2/index.html">Bonus 2</a></li>
+            <li><a href="../Bonus3/index.html">Bonus 3</a></li>
+            <li><a href="../Bonus4/index.html">Bonus 4</a></li>
+        </ul>
 
-<h1>This is a Heading</h1>
-<p>This is a paragrasdaph.</p>
+        <div id="mainContainer">
+            <!-- Dies ist der Code für die Aufgabe -->
+            <button id="playStopButton">Play</button>
 
-</body>
+            <div id="gainContainer"> Gain
+                <input type="range" min="0" max="100" value="10" class="slider" id="gainSlider">
+                <span id="gainOutput">1.0 dB</span>
+            </div>
+
+            <div id="panningContainer"> Panning
+                <input type="range" min="0" max="100" value="50" class="slider" id="panningSlider">
+                <span id="panningOutput">0 LR</span>
+            </div>
+
+            <div id="delayContainer">Delay
+                <input type="range" min="0" max="100" value="0" class="slider" id="delaySlider">
+                <span id="delayOutput">0 sec</span>
+            </div>
+
+            <script src="effects.js"></script>
+            <!--------------------------------------->
+        </div>
+    </body>
 </html>
